@@ -13,12 +13,13 @@ body {
 }
 
 .container {
-   width: 1920px;
-   height: 1322px;
+   width: 1200px;
+   height: 1000px;
    background: rgba(255, 144, 14, 0.1);
    display: flex;
    align-items: center;
    flex-direction: column;
+   margin-bottom: 10px;
 }
 
 /* navbar style here */
@@ -27,7 +28,7 @@ nav {
    align-items: center;
    justify-content: space-between;
    padding: 0 100px;
-   max-width: 1500px;
+   max-width: 1300px;
    width: 100%;
    height: 90px;
    margin: 0 20px;
@@ -61,7 +62,7 @@ nav>ul>li {
    margin-bottom: 30px;
    width: 862px;
    height: 225px;
-   /* margin-left: 450px; */
+   
 }
 
 .section-subtitle {
@@ -95,31 +96,99 @@ nav>ul>li {
 }
 
 .container .banner img {
-   width: 1340px;
-   height: 600px;
+   width: 900px;
+   height: 500px;
    border-radius: 8px;
+}
+
+/* feature section style  */
+
+.second-container {
+   width: 1200px;
+   height: 1100px;
+   gap: 73px;
+   display: flex;
+   align-items: center;
+   background-color: #991e1e;
 
 }
 
+.images-section {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin-left: 130px;
+   gap: 3px;
+   text-align: center;
+}
+.second-container .images-section img{
+width: 250px;
+height: 250px;
+}
+.feature-section {
+   display: flex;
+   flex-direction: column;
+   Width: 437px;
+   Height: 204px;
+}
+
+.feature-title .text-color1 {
+   color: #991e1e;
+}
+
+.feature-title .text-color2 {
+   color: #FF900E;
+}
+
+.feature-text {
+   size: 16px;
+   height: 26px;
+   color: #727272;
+   margin-top: 15px;
+}
+
+.feature-section .btn-primary2 {
+   margin-top: 100px;
+   margin-right: 50px;
+}
+
+
+
 /* Media query style here */
+
 @media only screen and (max-width: 688px) {
+   .container {
+      width: 100%
+   }
    nav {
       display: flex;
       flex-direction: column;
    }
-   .container{
-      width: 100%
-   }
    .section-title{
-      width: 100%
+      width: 500px;
    }
    .container .banner img {
-      width: 100%;
-      background-color: #FF900E;
-   
+      width: 100%
    }
 
+   .second-container {
+      width: 100%
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
 
+   }
+   .images-section{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      width: 100%;
+     
+   }
+   .feature-section{
+      display: flex;
+      flex-direction: column;
+      
+      
+   }
 
 
 }
