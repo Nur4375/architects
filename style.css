@@ -75,8 +75,8 @@ nav>ul>li {
 }
 
 .section-subtitle {
-   font-weight: 700;
-   font-size: 64px;
+   font-weight: 600;
+   font-size: 60px;
    text-align: center;
    color: #131313;
 
@@ -223,7 +223,7 @@ nav>ul>li {
 .btn-primary3 {
    margin-top: auto;
    position: absolute;
-   margin-bottom: 700px;
+   margin-bottom: 800px;
    margin-left: 30px;
 }
 
@@ -234,9 +234,9 @@ nav>ul>li {
    border: none;
    background-color: #FF900E;
    width: 300px;
-   height: 180px;
-   font-weight: 600;
-   font-size: 45px;
+   height: 150px;
+   font-weight: 500;
+   font-size: 40px;
 
 }
 
@@ -437,7 +437,7 @@ nav>ul>li {
    }
 
    .section-title {
-      width: 100%;
+      width: 90%;
       align-items: center;
    }
 
