@@ -13,8 +13,8 @@ body {
 }
 
 .container {
-   width: 1200px;
-   height: 1000px;
+   width: 1920px;
+   height: 1322px;
    background: rgba(255, 144, 14, 0.1);
    display: flex;
    align-items: center;
@@ -62,7 +62,7 @@ nav>ul>li {
    margin-bottom: 30px;
    width: 862px;
    height: 225px;
-   
+
 }
 
 .section-subtitle {
@@ -103,12 +103,12 @@ nav>ul>li {
 /* feature section style  */
 
 .second-container {
-   width: 1200px;
-   height: 1100px;
+   width: 1440px;
+   height: 1059px;
    gap: 73px;
    display: flex;
    align-items: center;
-   /* background-color: #991e1e; */
+
 
 }
 
@@ -119,10 +119,12 @@ nav>ul>li {
    gap: 3px;
    text-align: center;
 }
-.second-container .images-section img{
-width: 250px;
-height: 250px;
+
+.second-container .images-section img {
+   width: 250px;
+   height: 250px;
 }
+
 .feature-section {
    display: flex;
    flex-direction: column;
@@ -151,34 +153,39 @@ height: 250px;
 }
 
 /* feature love and enjoy style  */
-.feature-enjoy{
+.feature-enjoy {
    /* background-color: #FF900E; */
 }
-feature-enjoy-title{
+
+feature-enjoy-title {
    color: #131313;
-   Font size: 45px
-   Font style: Bold
+   Font size: 45px Font style: Bold
 }
-.feature-enjoy-subtitle{
+
+.feature-enjoy-subtitle {
    color: #727272;
 }
-.third-container{
+
+.third-container {
    width: 1200px;
 }
-.feature-enjoy{
+
+.feature-enjoy {
    display: flex;
    align-items: center;
-   gap: 50px;
+   gap: 10px;
    margin-left: 80px;
 
 }
-.btn-primary3{
+
+.btn-primary3 {
    margin-top: auto;
    position: absolute;
    margin-bottom: 700px;
    margin-left: 30px;
 }
-.btn-text3{
+
+.btn-text3 {
    padding: 20px 25px;
    border-radius: 5px;
    color: #ffff;
@@ -186,9 +193,127 @@ feature-enjoy-title{
    background-color: #FF900E;
    width: 320px;
    height: 200px;
-   
+
 }
 
+/* forth secton style here  */
+.forth-container {
+   margin-top: 100px;
+}
+
+.forth-section {
+   margin-left: 70px;
+}
+
+.forth-section-title {
+   font-weight: 700;
+   font-size: 45px;
+   color: #131313;
+
+}
+
+.box-section {
+   display: flex;
+   /* justify-content: space-evenly; */
+   margin-top: 90px;
+   gap: 65px;
+   margin-left: 85px;
+
+
+}
+
+.box-section .btn-box1 {
+   width: 220px;
+   height: 220px;
+   border: 1px solid #FF900E;
+   border-radius: 8px;
+   box-sizing: border-box;
+
+}
+
+.box-section .btn-box1 .box-number {
+   font-size: 45px;
+   color: #424242;
+   font-weight: 600;
+}
+
+.box-section .btn-box1 .box1 {
+   font-size: 20px;
+   color: #727272;
+   font-weight: 600;
+}
+
+/* sponsors section style  */
+.fifth-container {}
+
+.sponsor-section {
+   margin-top: 120px;
+
+
+}
+
+.sponsor-title {
+   margin-left: 350px;
+   margin-bottom: 20px;
+
+
+}
+
+.sponsor-subtitle {
+   margin-left: 130px;
+}
+
+.sponsor-banner {
+   display: flex;
+   margin-top: 40px;
+   gap: 65px;
+   margin-left: 85px;
+   text-align: center;
+
+}
+
+.sponsor-banner .banner-1 {
+   /* filter: grayscale(50%);
+   filter: opacity(30%); */
+}
+
+
+/* Special section style here */
+
+.sixth-container {
+   margin-top: 130px;
+   margin-left: 200px;
+}
+
+.sixth-section-title {
+   font-weight: 600;
+   font-size: 45px;
+   color: #131313;
+}
+
+.special-section img {
+   width: 400px;
+   height: 350px;
+
+}
+
+/* footer section style  */
+
+.footer-section {
+   background: #FFF4E7;
+   border-radius: 8px;
+   width: 1440px;
+   height: 100px;
+}
+
+.footer-title {
+   text-align: center;
+   padding-top: 45px;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 23px;
+   color: #424242;
+}
 
 /* Media query style here */
 
@@ -196,6 +321,7 @@ feature-enjoy-title{
    .container {
       width: 100%
    }
+
    nav {
       display: flex;
       flex-direction: column;
@@ -208,11 +334,17 @@ feature-enjoy-title{
    .second-container {
       width: 100%
    }
-   .images-section, .feature-section, .feature-section{
+
+   .images-section,
+   .feature-section,
+   .feature-section {
       display: flex;
-     
+
    }
-   .images-section, .feature-section, .feature-section{
+
+   .images-section,
+   .feature-section,
+   .feature-section {
       flex-direction: column;
    }
 
