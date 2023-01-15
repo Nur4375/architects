@@ -107,6 +107,7 @@ nav>ul>li {
    width: 900px;
    height: 500px;
    border-radius: 8px;
+   margin-bottom: 40px;
 }
 
 /* feature section style  */
@@ -118,6 +119,7 @@ nav>ul>li {
    width: 100%;
    margin: 0 auto;
    padding: 0 25px;
+   /* flex-wrap: wrap; */
 }
 
 .images-section {
@@ -166,6 +168,7 @@ nav>ul>li {
    max-width: 1250px;
    margin: 0 auto;
    padding: 0 25px;
+   flex-wrap: wrap;
 }
 
 
@@ -207,6 +210,7 @@ nav>ul>li {
    width: 100%;
    margin: 0 auto;
    padding: 0 25px;
+   flex-wrap: wrap;
 }
 
 .feature-enjoy {
@@ -248,6 +252,7 @@ nav>ul>li {
    width: 100%;
    margin: 0 auto;
    padding: 0 25px;
+   flex-wrap: wrap;
 }
 
 .forth-section {
@@ -370,6 +375,7 @@ nav>ul>li {
    width: 100%;
    max-width: 1250px;
    margin-top: 130px;
+   flex-wrap: wrap;
 }
 
 .sixth-section {
@@ -393,6 +399,7 @@ nav>ul>li {
    margin: 0 auto;
    padding: 25px 25px;
    margin-bottom: 50px;
+   flex-wrap: wrap;
 
 }
 
@@ -411,7 +418,8 @@ nav>ul>li {
    color: #424242;
 }
 
-/* Media query style here */
+
+/*----------------------------- Media query style here -----------------------------------*/
 
 @media only screen and (max-width: 688px) {
    .container {
@@ -438,20 +446,79 @@ nav>ul>li {
 
    .second-container {
       width: 100%;
-      max-width: 1250px;
-
-   }
-
-   .images-section,
-   .feature-section,
-   .feature-section {
       display: flex;
-
+      flex-direction: column;
+      flex-wrap: wrap;
    }
 
-   .images-section,
-   .feature-section,
-   .feature-section {
+   .images-section{
+      display: flex;
       flex-direction: column;
    }
+   .feature-section{
+      width: 100%;
+   }
+
+   /* responsive for third section */
+   .third-container{
+      width: 100%;
+      flex-wrap: wrap;
+   }
+   .feature-enjoy{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+   }
+   
+
+   /* responsive for forth section  */
+   .forth-container{
+      width: 100%;
+      flex-wrap: wrap;
+}
+ .forth-section{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+   .box-section{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+   }
+
+   /* responsive for fifth section  */
+
+   .fifth-container{
+      width: 100%;
+      flex-wrap: wrap;
+   }
+   .sponsor-section{
+      display: flex;
+      flex-direction: column;
+   }
+   .sponsor-banner{
+      display: flex;
+      flex-direction: column;
+   }
+   /* responsive for sixth section  */
+
+   .sixth-container{
+      width: 100%;
+   }
+
+   .sixth-section{
+      display: flex;
+      flex-direction: column;
+
+   }
+
+   /* responsive for footer section  */
+   .footer-section{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+   }
+
+
 }
