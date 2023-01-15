@@ -253,7 +253,8 @@ feature-enjoy-title {
    font-size: 16px;
    outline: none;
 }
-.box-section .btn-box1:hover{
+
+.box-section .btn-box1:hover {
    box-shadow: inset 220px 0 0 0 #f9e506;
 }
 
@@ -273,9 +274,11 @@ feature-enjoy-title {
 .fifth-container {
    max-width: 1250px;
    width: 100%;
+   margin-top: 150px;
+   text-align: center;
    margin: 0 auto;
-   padding: 0 25px;
 }
+
 
 .sponsor-section {
    margin-top: 120px;
@@ -284,22 +287,22 @@ feature-enjoy-title {
 }
 
 .sponsor-title {
-   margin-left: 350px;
-   margin-bottom: 20px;
+   /* margin-left: 350px;
+   margin-bottom: 20px; */
 
 
 }
 
 .sponsor-subtitle {
-   margin-left: 130px;
+   /* margin-left: 130px; */
 }
 
 .sponsor-banner {
    display: flex;
-   margin-top: 40px;
-   gap: 65px;
-   margin-left: 85px;
+
    text-align: center;
+   align-items: center;
+   background-color: #c0b408;
 
 }
 
@@ -326,6 +329,39 @@ feature-enjoy-title {
 .special-section img {
    width: 400px;
    height: 350px;
+
+}
+
+/* unique section btn  */
+
+.sixth-container {
+   padding: 0 25px;
+   width: 100%;
+   max-width: 1250px;
+   margin-top: 180px;
+}
+
+.sixth-container .btn-contact {
+   background-color: #d87272;
+   font-weight: 600;
+   font-size: 20px;
+   color: #F15B22;
+   border-radius: 6px;
+   border: 0;
+   padding: 18px 32px;
+   justify-content: center;
+   border-radius: 3px;
+   margin-right: 15px;
+}
+
+.sixth-section {
+   align-items: center;
+   text-align: center;
+
+}
+
+.special-section {
+   text-align: center;
 
 }
 
