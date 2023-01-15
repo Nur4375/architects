@@ -439,49 +439,55 @@ nav>ul>li {
       width: 100%;
    }
 
-   .btn-primary {
-
-      background-color: #c0b408;
-   }
+   /* responsive for second container  */
 
    .second-container {
       width: 100%;
       display: flex;
       flex-direction: column;
-      flex-wrap: wrap;
    }
 
-   .images-section{
+   .images-section {
       display: flex;
       flex-direction: column;
    }
-   .feature-section{
+
+   .feature-section {
       width: 100%;
    }
 
    /* responsive for third section */
-   .third-container{
+
+   .third-container {
       width: 100%;
       flex-wrap: wrap;
    }
-   .feature-enjoy{
+
+   .feature-enjoy {
+      display: flex;
+      flex-direction: column;
+      margin-left: 40px;
+   }
+
+   .feature-image img {
+      width: 500px;
+      height: 650px;
+   }
+
+
+   /* responsive for forth section  */
+   .forth-container {
+      width: 100%;
+      flex-wrap: wrap;
+   }
+
+   .forth-section {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
    }
-   
 
-   /* responsive for forth section  */
-   .forth-container{
-      width: 100%;
-      flex-wrap: wrap;
-}
- .forth-section{
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-}
-   .box-section{
+   .box-section {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
@@ -489,32 +495,39 @@ nav>ul>li {
 
    /* responsive for fifth section  */
 
-   .fifth-container{
+   .fifth-container {
       width: 100%;
       flex-wrap: wrap;
    }
-   .sponsor-section{
+
+   .sponsor-section {
       display: flex;
       flex-direction: column;
    }
-   .sponsor-banner{
+   .sponsor-subtitle{
+      width: 100%;
+      flex-wrap: wrap;
+   }
+
+   .sponsor-banner {
       display: flex;
       flex-direction: column;
    }
+
    /* responsive for sixth section  */
 
-   .sixth-container{
+   .sixth-container {
       width: 100%;
    }
 
-   .sixth-section{
+   .sixth-section {
       display: flex;
       flex-direction: column;
 
    }
 
    /* responsive for footer section  */
-   .footer-section{
+   .footer-section {
       width: 100%;
       display: flex;
       flex-direction: column;
