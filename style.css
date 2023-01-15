@@ -173,8 +173,8 @@ nav>ul>li {
 
 
 .feature-contain-section {
-   /* background-color: #991e1e; */
-   margin-top: 180px;
+
+   margin-top: 270px;
 }
 
 .experience-section-title {
@@ -189,7 +189,6 @@ nav>ul>li {
    font-size: 45px;
    color: #131313;
    margin-bottom: 15px;
-
 }
 
 .feature-enjoy-title {
@@ -429,14 +428,17 @@ nav>ul>li {
    nav {
       display: flex;
       flex-direction: column;
+      align-items: center;
    }
 
    .container .banner img {
       width: 100%;
+      align-items: center;
    }
 
    .section-title {
       width: 100%;
+      align-items: center;
    }
 
    /* responsive for second container  */
@@ -450,10 +452,13 @@ nav>ul>li {
    .images-section {
       display: flex;
       flex-direction: column;
+      align-items: center;
    }
 
    .feature-section {
       width: 100%;
+      align-items: center;
+      margin-bottom: 130px;
    }
 
    /* responsive for third section */
@@ -467,11 +472,13 @@ nav>ul>li {
       display: flex;
       flex-direction: column;
       margin-left: 40px;
+      align-items: center;
    }
 
    .feature-image img {
       width: 500px;
       height: 650px;
+      align-items: center;
    }
 
 
@@ -484,13 +491,14 @@ nav>ul>li {
    .forth-section {
       display: flex;
       flex-direction: column;
-      flex-wrap: wrap;
+      align-items: center;
+      
    }
 
    .box-section {
       display: flex;
       flex-direction: column;
-      flex-wrap: wrap;
+      align-items: center;
    }
 
    /* responsive for fifth section  */
@@ -504,7 +512,8 @@ nav>ul>li {
       display: flex;
       flex-direction: column;
    }
-   .sponsor-subtitle{
+
+   .sponsor-subtitle {
       width: 100%;
       flex-wrap: wrap;
    }
