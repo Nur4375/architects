@@ -8,18 +8,28 @@
 }
 
 body {
-   background: #FFFFFF;
+   background: #850707;
    font-family: 'Work Sans', sans-serif;
+   max-width: 100%;
+   max-height: 100%
+
+}
+container{
+   max-width: 1250px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 25px;
 }
 
 .container {
-   width: 1920px;
-   height: 1322px;
+   max-width: 1250;
+   width: 100%;
    background: rgba(255, 144, 14, 0.1);
    display: flex;
    align-items: center;
    flex-direction: column;
-   margin-bottom: 10px;
+   margin: 0 auto;
+   /* margin-bottom: 10px; */
 }
 
 /* navbar style here */
@@ -27,11 +37,11 @@ nav {
    display: flex;
    align-items: center;
    justify-content: space-between;
-   padding: 0 100px;
-   max-width: 1300px;
+   padding: 0 50px;
+   max-width: 1100px;
    width: 100%;
    height: 90px;
-   margin: 0 20px;
+   margin: 0 auto;
 }
 
 nav>h1 {
@@ -103,11 +113,15 @@ nav>ul>li {
 /* feature section style  */
 
 .second-container {
-   width: 1440px;
-   height: 1059px;
+   
    gap: 73px;
    display: flex;
    align-items: center;
+   background-color: #c0b408;
+   max-width: 1250px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 25px;
 
 
 }
@@ -167,7 +181,10 @@ feature-enjoy-title {
 }
 
 .third-container {
-   width: 1200px;
+   max-width: 1250px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 25px;
 }
 
 .feature-enjoy {
@@ -198,7 +215,10 @@ feature-enjoy-title {
 
 /* forth secton style here  */
 .forth-container {
-   margin-top: 100px;
+   max-width: 1250px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 25px;
 }
 
 .forth-section {
@@ -244,7 +264,12 @@ feature-enjoy-title {
 }
 
 /* sponsors section style  */
-.fifth-container {}
+.fifth-container {
+   max-width: 1250px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 25px;
+}
 
 .sponsor-section {
    margin-top: 120px;
@@ -273,16 +298,17 @@ feature-enjoy-title {
 }
 
 .sponsor-banner .banner-1 {
-   /* filter: grayscale(50%);
-   filter: opacity(30%); */
+   filter: grayscale(1);
 }
 
 
 /* Special section style here */
 
 .sixth-container {
-   margin-top: 130px;
-   margin-left: 200px;
+   max-width: 1250px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 25px;
 }
 
 .sixth-section-title {
@@ -302,8 +328,10 @@ feature-enjoy-title {
 .footer-section {
    background: #FFF4E7;
    border-radius: 8px;
-   width: 1440px;
-   height: 100px;
+   max-width: 1250px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 25px;
 }
 
 .footer-title {
@@ -319,7 +347,7 @@ feature-enjoy-title {
 
 @media only screen and (max-width: 688px) {
    .container {
-      width: 100%
+      width: 100%;
    }
 
    nav {
@@ -328,11 +356,22 @@ feature-enjoy-title {
    }
 
    .container .banner img {
-      width: 100%
+      width: 100%;
    }
+   .section-title{
+      width: 100%;
+   }
+   .btn-primary{
+     
+      background-color: #c0b408;
+   }
+   /* .btn-primary .btn-text{
+      width: 100%;
+      margin-bottom: 20%;
+   } */
 
    .second-container {
-      width: 100%
+      width: 100%;
    }
 
    .images-section,
@@ -347,6 +386,4 @@ feature-enjoy-title {
    .feature-section {
       flex-direction: column;
    }
-
-
 }
